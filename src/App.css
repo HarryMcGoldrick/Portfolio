@@ -1,3 +1,10 @@
+@font-face {
+  font-family: 'Aileron';
+  src: local('Aileron'), url(./fonts/Aileron-Regular.ttf) format('ttf');
+  /* other formats include: 'woff2', 'truetype, 'opentype',
+                            'embedded-opentype', and 'svg' */
+}
+
 .App {
   text-align: center;
 }
