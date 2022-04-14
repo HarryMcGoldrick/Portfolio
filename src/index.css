@@ -3,6 +3,18 @@
   src: local('Aileron'), url(./fonts/Aileron-Regular.ttf) format('truetype');
 }
 
+@font-face {
+  font-family: 'Aileron';
+  src: local('Aileron'), url(./fonts/Aileron-Heavy.ttf) format('truetype');
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: 'Aileron';
+  src: local('Aileron'), url(./fonts/Aileron-Bold.ttf) format('truetype');
+  font-weight: bold;
+}
+
 
 body {
   margin: 0;

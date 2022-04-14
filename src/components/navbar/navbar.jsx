@@ -3,7 +3,7 @@ import './navbar.css';
 
 export const GlobalNavbar = () => {
     return (
-        <Navbar expand="lg" class="navbar" sticky="top">
+        <Navbar class="navbar" sticky="top">
             <Container fluid>
                 <Nav>
                     <Navbar.Brand class="navbar-brand">HMG</Navbar.Brand>
