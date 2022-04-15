@@ -1,38 +1,9 @@
-.body {
-  background-color: #F3F3F3 !important;
+.primary-page {
+  background-color: #F3F3F3;
   min-height: 100vh;
 }
 
-
-.center {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 80vh;
-}
-
-.bottom {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 10vh;
-  width: auto;
-}
-
-.title {
-  font-size: 96px;
-  font-family: 'Aileron';
-  font-weight: 900;
-  margin: 0;
-}
-
-.subtitle {
-  font-size: 40px;
-  font-weight: bold;
-  color: #443F43;
-  font-family: 'Aileron';
-}
-
-.scroll {
-  width: 100px;
+.secondary-page {
+  background-color: #F6B82F;
+  min-height: 100vh;
 }

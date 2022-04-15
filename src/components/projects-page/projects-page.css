@@ -1,0 +1,29 @@
+.image-holder {
+    margin-top: 8rem;
+}
+
+.text-holder {
+    margin-top: 8rem;
+    padding-right: 16rem;
+}
+
+.text-holder.h1 {
+    font-size: 82px;
+}
+
+.title-text {
+    font-size: 80px;
+    font-family: 'Aileron';
+    font-weight: 900;
+}
+
+.projects-title {
+    padding-top: 4rem;
+    padding-left: 4rem;
+}
+
+.project-container {
+    padding-left: 4rem !important;
+    padding-right: 4rem !important;
+    padding-top: 4rem;
+}

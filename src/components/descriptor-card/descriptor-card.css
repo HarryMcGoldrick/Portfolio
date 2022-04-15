@@ -1,0 +1,33 @@
+.project-title {
+    font-size: 70px;
+    font-weight: bold;
+    color: #443F43;
+    font-family: 'Aileron';
+}
+
+.project-subtitle {
+    font-size: 24px;
+    font-weight: 500;
+    font-style: italic;
+    color: #443F43;
+    font-family: 'Aileron';
+}
+
+.project-description {
+    font-size: 18px;
+    color: #F3F3F3;
+    font-family: 'Aileron';
+}
+
+.icon-row {
+    background-color: #F3F3F3;
+    border-radius: 15px;
+    padding: 1rem;
+    width: fit-content;
+}
+
+.tech-icon {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 90px;
+}
