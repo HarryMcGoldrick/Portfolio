@@ -10,6 +10,12 @@ export const GlobalNavbar = () => {
                 </Nav>
                 <span class="navbar-seperator"></span>
                 <Nav>
+                <Nav.Link class="navbar-link" href="https://pdfhost.io/v/UV62s4.OK_Microsoft_Word_Harry_McGoldrickdocx">
+                        <img
+                            src="/CvIcon.png"
+                            className="navbar-icon"
+                        ></img>
+                </Nav.Link>
                 <Nav.Link class="navbar-link" href="https://www.linkedin.com/in/harrymcgoldrick/">
                         <img
                             src="/LinkedInLogo.png"
