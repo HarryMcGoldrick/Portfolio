@@ -1,10 +1,11 @@
-import { Col, Container, Row } from 'react-bootstrap';
+import { Col, Container, Image, Row } from 'react-bootstrap';
 import { DescriptorCard } from '../descriptor-card/descriptor-card';
 import './projects-page.css';
 import projects from './project-list';
 import { useEffect } from 'react';
 import Aos from 'aos';
 import "aos/dist/aos.css";
+import {ImgCarousel} from '../img-carousel/img-carousel.jsx'
 
 
 export const ProjectsPage = () => {
@@ -15,6 +16,7 @@ export const ProjectsPage = () => {
             delay: 50
         });
     });
+
 
     return (
         <>
@@ -28,20 +30,20 @@ export const ProjectsPage = () => {
             <div>
                 <Container fluid className="project-container">
                     {projects.map((element, index) => {
-                        if (index % 2 === 0) {
+                        if (index % 2 === 0) { //Left -> Right -> Left
                             return(
                             <div data-aos="fade-up">
                                 <Row id={index} style={{paddingBottom: '8rem'}}>
-                                    <Col xs={6} className="text-holder" style={{paddingRight: '5rem'}}>
+                                    <Col lg={6} md={12} className="text-holder" style={{paddingRight: '5rem'}}>
                                         <DescriptorCard project={element}
                                         ></DescriptorCard>
                                     </Col>
-                                    <Col xs={6} className="image-holder" style={{paddingLeft: '1rem'}}>
-                                    <img
-                                    src={element.img}
-                                    style={{width: '48rem'}}
-                                    >
-                                    </img>
+                                    <Col lg={6} md={12} className="image-holder" style={{paddingLeft: '1rem'}}>
+                                        <ImgCarousel 
+                                        imgs={element.imgs}
+                                        >
+                                        </ImgCarousel>
+        
                                     </Col>
                                 </Row>
                             </div>
@@ -50,14 +52,13 @@ export const ProjectsPage = () => {
                             return (
                             <div data-aos="fade-up">
                                 <Row id={index} style={{paddingBottom: '8rem'}}>
-                                    <Col xs={6} className="image-holder">
-                                        <img
-                                        src={element.img}
-                                        style={{width: '48rem'}}
+                                    <Col lg={6} md={12} className="image-holder" style={{paddingRight: '3rem'}}>
+                                    <ImgCarousel
+                                        imgs={element.imgs}
                                         >
-                                        </img>
+                                        </ImgCarousel>
                                     </Col>
-                                    <Col xs={6} className="text-holder" style={{paddingRight: '5rem'}}>
+                                    <Col lg={6} md={12} className="text-holder" style={{paddingRight: '5rem'}}>
                                         <DescriptorCard project={element}
                                         ></DescriptorCard>
                                     </Col>

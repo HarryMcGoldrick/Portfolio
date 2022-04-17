@@ -3,7 +3,7 @@
 title: string
 description: string
 bullets: string[]
-img: string //src url
+imgs: string[] //src url
 techIcons: string [] //src url
 githubUrl: string
 
@@ -25,7 +25,7 @@ const projects = [
             'Roguelike progression system',
             'Class unlocks',
         ],
-        img: 'SkillifyImage.png',
+        imgs: ['RogueWorlds1.png','RogueWorlds2.png','RogueWorlds3.png','RogueWorlds4.png','RogueWorlds5.png','RogueWorlds6.png','RogueWorlds7.png'],
         techIcons: [
             'UnityIcon.png',
             'SteamIcon.png',
@@ -45,7 +45,7 @@ const projects = [
             'User achievements and badges',
             'Publicity settings to hide & prevent modification from other users',
         ],
-        img: 'SkillifyImage.png',
+        imgs: ['Skillify1.png', 'Skillify2.png', 'Skillify3.png'],
         techIcons: [
             'ReactIcon.png',
             'ReduxIcon.png',
@@ -65,7 +65,7 @@ const projects = [
             'Location based filtering',
             "User favouriting system",
         ],
-        img: 'SkillifyImage.png',
+        imgs: ['Starfall1.png', 'Starfall2.png', 'Starfall3.png'],
         techIcons: [
             'AngularLogo.png',
             'FlaskLogo.png',
