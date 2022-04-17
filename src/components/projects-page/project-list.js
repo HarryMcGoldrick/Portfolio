@@ -67,9 +67,9 @@ const projects = [
         ],
         img: 'SkillifyImage.png',
         techIcons: [
-            'ReactIcon.png',
-            'ReduxIcon.png',
-            'NodeJsIcon.png',
+            'AngularLogo.png',
+            'FlaskLogo.png',
+            'PythonLogo.png',
             'TSIcon.png',
             'MongoIcon.png'
         ],
