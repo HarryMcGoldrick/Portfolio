@@ -21,7 +21,7 @@ export const LandingPage = () => {
                         <Col lg={5} md={12}>
                             <Image fluid
                                 className="avatar"
-                                src="./Placeholder.png"
+                                src="./BracketLogo.png"
                             ></Image>
                         </Col>
                     </Row>

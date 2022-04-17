@@ -1,7 +1,6 @@
 .project-title {
     font-size: 70px;
     font-weight: bold;
-    color: #443F43;
     font-family: 'Aileron';
 }
 
@@ -14,9 +13,8 @@
 }
 
 .project-description {
-    font-size: 18px;
-    color: #F3F3F3;
-    font-family: 'Aileron';
+    font-size: 20px;
+    color: #443F43;
 }
 
 .icon-row {

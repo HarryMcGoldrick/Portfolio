@@ -41,10 +41,9 @@ const projects = [
             'User authentication',
             'Global state management with Redux',
             'Graph editor with persistant saving',
-            "Integrated Youtube &#38; Google Books API's",
+            "Integrated Youtube & Google Books API's",
             'User achievements and badges',
-            'Progress through existing graphs to track progress',
-            'Publicity settings to hide &#38; prevent modification from other users',
+            'Publicity settings to hide & prevent modification from other users',
         ],
         img: 'SkillifyImage.png',
         techIcons: [

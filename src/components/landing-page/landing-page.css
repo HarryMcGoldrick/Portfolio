@@ -31,3 +31,9 @@
 .scroll {
   width: 100px;
 }
+
+.avatar {
+  width: 400px;
+  padding: 32px;
+  margin-left: 16px;
+}
