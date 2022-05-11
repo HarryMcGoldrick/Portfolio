@@ -10,7 +10,7 @@ export const GlobalNavbar = () => {
                 </Nav>
                 <span class="navbar-seperator"></span>
                 <Nav>
-                <Nav.Link class="navbar-link" href="https://pdfhost.io/v/UV62s4.OK_Microsoft_Word_Harry_McGoldrickdocx">
+                <Nav.Link class="navbar-link" href="https://pdfhost.io/v/RV4yU32~V_Microsoft_Word_Harry_McGoldrickdocx">
                         <img
                             src="/CvIcon.png"
                             className="navbar-icon"
