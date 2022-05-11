@@ -7,7 +7,6 @@ import Aos from 'aos';
 import "aos/dist/aos.css";
 import {ImgCarousel} from '../img-carousel/img-carousel.jsx'
 
-
 export const ProjectsPage = () => {
 
     useEffect(() => {
@@ -16,7 +15,6 @@ export const ProjectsPage = () => {
             delay: 50
         });
     });
-
 
     return (
         <>
